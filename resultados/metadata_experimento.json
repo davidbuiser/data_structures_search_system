@@ -1,0 +1,65 @@
+{
+  "fecha_inicio": "2026-10-12T08:46:01",
+  "sistema_operativo": "Windows 10",
+  "arquitectura": "AMD64",
+  "procesador": "Intel64 Family 6 Model 78 Stepping 3, GenuineIntel",
+  "nucleos_logicos": 4,
+  "ram_gb": 7.88,
+  "python": "3.13.3",
+  "implementacion_python": "CPython",
+  "reloj": "time.perf_counter()",
+  "parametros": {
+    "tamanos_N": [
+      10,
+      100,
+      1000,
+      5000,
+      10000,
+      20000,
+      50000,
+      100000
+    ],
+    "modos_ids": [
+      "aleatorio",
+      "ordenado"
+    ],
+    "estructuras": [
+      "lista",
+      "abb",
+      "bmas"
+    ],
+    "repeticiones": 5,
+    "tiempo_minimo_bloque_s": 1.0,
+    "orden_b": 32,
+    "M_fijo": null,
+    "semilla_base": 2024,
+    "N_max_abb_ordenado": 5000,
+    "estudio_M": {
+      "N": 10000,
+      "valores_M": [
+        100,
+        1000,
+        10000,
+        100000,
+        1000000
+      ]
+    },
+    "estudio_orden_b": {
+      "N": 100000,
+      "valores": [
+        4,
+        8,
+        16,
+        32,
+        64,
+        128,
+        256
+      ]
+    },
+    "estudios_ejecutados": [
+      "N",
+      "M",
+      "orden_b"
+    ]
+  }
+}
